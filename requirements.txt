@@ -1,0 +1,18 @@
+# Core Dependencies
+speechrecognition==3.10.0
+pyttsx3==2.90
+pyautogui==0.9.54
+streamlit==1.32.0
+
+# Additional Utilities
+python-dotenv==1.0.0  # For potential environment variables
+pyaudio==0.2.14       # Required for microphone access (may need manual installation)
+
+# Web/API Interaction
+requests==2.31.0       # For future web service integrations
+
+# Configuration Management
+python-json-logger==2.0.7  # Enhanced logging (used in back.py)
+
+# Windows-specific (comment out if cross-platform)
+pywin32==306           # For Windows system integrations (optional)
